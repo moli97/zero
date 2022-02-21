@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zero
+
+server:
+  port: 8080
+
+mybatis:
+  type-aliases-package: top.imoli.zero.mybatis.entity
+  mapper-locations: classpath:mappers/*xml
