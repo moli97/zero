@@ -12,7 +12,7 @@ spring:
       datasource:
         jdbc-zero:
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/db_baobao_moego?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
-          username: root
-          password: root
+          url: jdbc:mysql://110.40.195.147:3306/db_zero?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: librarian
+          password: iMd8dj7W2A2X2f6k
 
