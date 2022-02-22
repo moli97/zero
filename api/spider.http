@@ -1,0 +1,6 @@
+### 通过关键字查询列表
+GET http://127.0.0.1:8080/spider/search?keyWord=重生之似水流年
+
+
+###
+GET http://localhost:8080/spider/down?url=https://www.bige7.com/book/4803/
