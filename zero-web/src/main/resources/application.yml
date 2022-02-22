@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+spring:
+  profiles:
+    active: local
+  datasource:
+    dynamic:
+      primary: jdbc-zero #设置默认的数据源
+      datasource:
+        jdbc-zero:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/db_baobao_moego?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: root
+          password: root
+
